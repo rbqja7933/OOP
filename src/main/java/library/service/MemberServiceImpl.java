@@ -18,6 +18,12 @@ public class MemberServiceImpl implements MemberService {
 
     @Override
     public void registerMember(Member member) {
+        if (member == null) {
+            throw new IllegalArgumentException("Member cannot be null");
+        }
+        if (members.containsKey(member.getMemberId())) {
+            throw new IllegalArgumentException("Member with ID " + member.getMemberId() + " already exists");
+        }
         members.put(member.getMemberId(), member);
     }
 

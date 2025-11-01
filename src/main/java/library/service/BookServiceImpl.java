@@ -19,6 +19,12 @@ public class BookServiceImpl implements BookService {
 
     @Override
     public void addBook(Book book) {
+        if (book == null) {
+            throw new IllegalArgumentException("Book cannot be null");
+        }
+        if (books.containsKey(book.getIsbn())) {
+            throw new IllegalArgumentException("Book with ISBN " + book.getIsbn() + " already exists");
+        }
         books.put(book.getIsbn(), book);
     }
 
