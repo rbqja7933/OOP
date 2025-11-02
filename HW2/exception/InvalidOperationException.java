@@ -1,4 +1,4 @@
-package library.exception;
+package exception;
 
 /**
  * Exception thrown when an invalid operation is attempted

@@ -1,7 +1,7 @@
-package library.service;
+package service;
 
-import library.exception.BookNotFoundException;
-import library.model.Book;
+import exception.BookNotFoundException;
+import model.Book;
 import java.util.List;
 
 /**

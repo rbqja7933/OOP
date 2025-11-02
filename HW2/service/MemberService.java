@@ -1,7 +1,7 @@
-package library.service;
+package service;
 
-import library.exception.MemberNotFoundException;
-import library.model.Member;
+import exception.MemberNotFoundException;
+import model.Member;
 import java.util.List;
 
 /**

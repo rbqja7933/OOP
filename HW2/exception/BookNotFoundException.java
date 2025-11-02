@@ -1,4 +1,4 @@
-package library.exception;
+package exception;
 
 /**
  * Exception thrown when a book is not found in the library system

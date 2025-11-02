@@ -1,4 +1,4 @@
-package library.model;
+package model;
 
 /**
  * Represents a library member

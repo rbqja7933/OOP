@@ -1,8 +1,6 @@
-package library;
-
-import library.exception.*;
-import library.model.*;
-import library.service.*;
+import exception.*;
+import model.*;
+import service.*;
 import java.util.List;
 
 /**

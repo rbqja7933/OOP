@@ -1,7 +1,7 @@
-package library.service;
+package service;
 
-import library.exception.*;
-import library.model.Loan;
+import exception.*;
+import model.Loan;
 import java.util.List;
 
 /**

@@ -1,8 +1,8 @@
-package library.service;
+package service;
 
-import library.exception.*;
-import library.model.Book;
-import library.model.Loan;
+import exception.*;
+import model.Book;
+import model.Loan;
 import java.time.LocalDate;
 import java.util.*;
 import java.util.stream.Collectors;

@@ -1,4 +1,4 @@
-package library.model;
+package model;
 
 /**
  * Represents a book in the library system
